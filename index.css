@@ -1,0 +1,330 @@
+/* =========================
+   BMW M THEME
+========================= */
+
+:root {
+
+  --bmw-blue: #0066B1;
+
+  --bmw-dark-blue: #003B70;
+
+  --bmw-red: #E22726;
+
+  --bmw-black: #0D0D0D;
+
+  --bmw-dark: #161616;
+
+  --bmw-light: #F5F7FA;
+
+  --bmw-white: #FFFFFF;
+
+}
+
+/* =========================
+   GLOBAL
+========================= */
+
+body {
+
+  background-color: var(--bmw-light);
+
+  color: #111;
+
+  font-family:
+    "Segoe UI",
+    sans-serif;
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+
+  background:
+    linear-gradient(
+      90deg,
+      #050505,
+      #071A40,
+      #003B70
+    ) !important;
+
+  box-shadow:
+    0 4px 20px
+    rgba(0,0,0,0.3);
+
+}
+
+.navbar-brand {
+
+  font-size: 1.8rem;
+
+  font-weight: 700;
+
+  color: white !important;
+
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn-primary {
+
+  background-color:
+    var(--bmw-blue);
+
+  border-color:
+    var(--bmw-blue);
+
+  font-weight: 600;
+
+}
+
+.btn-primary:hover {
+
+  background-color:
+    var(--bmw-dark-blue);
+
+  border-color:
+    var(--bmw-dark-blue);
+
+}
+
+.btn-danger {
+
+  background-color:
+    var(--bmw-red);
+
+  border-color:
+    var(--bmw-red);
+
+}
+
+.btn-danger:hover {
+
+  background-color:
+    #B71C1C;
+
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.card {
+
+  border: none;
+
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 10px 25px
+    rgba(0,0,0,0.08);
+
+  transition: 0.3s;
+
+}
+
+.card:hover {
+
+  transform:
+    translateY(-5px);
+
+  box-shadow:
+    0 15px 35px
+    rgba(0,102,177,0.2);
+
+}
+
+.card::before {
+
+  content: "";
+
+  display: block;
+
+  height: 5px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #0066B1,
+      #003B70,
+      #E22726
+    );
+
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero-section {
+
+  background:
+    linear-gradient(
+      135deg,
+      #050505,
+      #071A40,
+      #003B70
+    );
+
+  color: white;
+
+  border-radius: 20px;
+
+  padding: 80px 40px;
+
+  margin-top: 30px;
+
+  box-shadow:
+    0 10px 30px
+    rgba(0,0,0,0.25);
+
+}
+
+.hero-section h1 {
+
+  font-size: 4rem;
+
+  font-weight: 800;
+
+}
+
+.hero-section p {
+
+  color: #d9d9d9;
+
+}
+
+/* =========================
+   TABLES
+========================= */
+
+.table thead {
+
+  background:
+    linear-gradient(
+      90deg,
+      #0066B1,
+      #003B70
+    );
+
+  color: white;
+
+}
+
+.table-hover tbody tr:hover {
+
+  background-color:
+    rgba(0,102,177,0.08);
+
+}
+
+/* =========================
+   FORMS
+========================= */
+
+.form-control {
+
+  border-radius: 10px;
+
+}
+
+.form-control:focus {
+
+  border-color:
+    var(--bmw-blue);
+
+  box-shadow:
+    0 0 0 0.2rem
+    rgba(0,102,177,0.25);
+
+}
+
+/* =========================
+   DASHBOARD
+========================= */
+
+.dashboard-number {
+
+  color:
+    var(--bmw-blue);
+
+  font-weight: 800;
+
+  font-size: 2rem;
+
+}
+
+/* =========================
+   STATUS BADGES
+========================= */
+
+.badge-pending {
+
+  background-color:
+    var(--bmw-blue);
+
+}
+
+.badge-confirmed {
+
+  background-color:
+    #198754;
+
+}
+
+.badge-cancelled {
+
+  background-color:
+    var(--bmw-red);
+
+}
+
+/* =========================
+   ADMIN SIDEBAR
+========================= */
+
+.admin-sidebar {
+
+  background:
+    linear-gradient(
+      180deg,
+      #050505,
+      #071A40
+    );
+
+}
+
+.admin-sidebar .btn-primary {
+
+  background:
+    linear-gradient(
+      90deg,
+      #0066B1,
+      #003B70
+    );
+
+  border: none;
+
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+  color: #666;
+
+}

@@ -1,0 +1,22 @@
+7️⃣ Quick Start (Every Time)
+
+Open 2 terminals:
+
+Terminal 1
+
+cd server
+npm run dev
+
+Terminal 2
+
+cd frontend
+npm run dev
+
+Then visit:
+
+http://localhost:5173
+
+
+
+-->> if i accidentally delete the database in mongodb compass :
+        :- in backend terminal -> "node seed.js"
