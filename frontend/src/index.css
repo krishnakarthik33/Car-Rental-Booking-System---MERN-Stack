@@ -1,0 +1,147 @@
+/* ===========================
+   PORTUGAL THEME
+=========================== */
+
+body{
+    background:#F8F7F2;
+    color:#1B1B1B;
+    font-family:Arial,sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    background:#046A38 !important;
+    border-bottom:4px solid #FFD100;
+}
+
+.navbar-brand,
+.nav-link{
+    color:#fff !important;
+    font-weight:600;
+}
+
+.nav-link:hover{
+    color:#FFD100 !important;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:15px;
+    background:#FFFFFF;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+}
+
+/* Buttons */
+
+.btn-primary{
+    background:#C8102E;
+    border-color:#C8102E;
+    color:white;
+}
+
+.btn-primary:hover{
+    background:#A20C25;
+    border-color:#A20C25;
+}
+
+.btn-success{
+    background:#046A38;
+    border-color:#046A38;
+}
+
+.btn-success:hover{
+    background:#03552D;
+}
+
+.btn-warning{
+    background:#FFD100;
+    border-color:#FFD100;
+    color:#1B1B1B;
+}
+
+.btn-warning:hover{
+    background:#E5BC00;
+}
+
+/* Tables */
+
+.table{
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.table thead{
+    background:#046A38;
+    color:white;
+}
+
+.table-hover tbody tr:hover{
+    background:#FFF5CC;
+}
+
+/* Forms */
+
+.form-control{
+    border:2px solid #D8D8D8;
+    border-radius:10px;
+}
+
+.form-control:focus{
+    border-color:#046A38;
+    box-shadow:0 0 0 .2rem rgba(4,106,56,.25);
+}
+
+/* Dashboard */
+
+.dashboard-number{
+    color:#C8102E;
+    font-size:2rem;
+    font-weight:700;
+}
+
+/* Status */
+
+.badge-pending{
+    background:#FFD100;
+    color:#1B1B1B;
+}
+
+.badge-confirmed{
+    background:#046A38;
+    color:white;
+}
+
+.badge-cancelled{
+    background:#C8102E;
+    color:white;
+}
+
+/* Links */
+
+a{
+    color:#046A38;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#C8102E;
+}
+
+/* Footer */
+
+footer{
+    background:#046A38;
+    color:white;
+    border-top:4px solid #FFD100;
+}
+
+https://github.com/krishnakarthik33/Car-Rental-Booking-System---MERN-Stack/blob/main/README.md
